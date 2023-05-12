@@ -1,3 +1,68 @@
 *{
-    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 168, 168);
+}
+#cuerpo{
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    width: 400px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    border-radius: 20px;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+#cuerpo button:first-child{
+    border: 3px solid rgb(138, 138, 108);
+    background-color: rgb(189, 189, 148);
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -3px #00000040,-5px -5px 15px 3px #057996b6;
+    cursor: pointer;
+    
+}
+#cuerpo button:nth-child(2){
+    border: 3px solid rgb(138, 138, 108);
+    background-color: rgb(189, 189, 148);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -3px #00000040,-5px -5px 15px 3px #057996b6;
+    
+}
+
+#cuerpo button:nth-child(3){
+    border: 3px solid rgb(138, 138, 108);
+    background-color: rgb(189, 189, 148);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -3px #00000040,-5px -5px 15px 3px #057996b6;
+    cursor: pointer;
+}
+
+#cuerpo .contador {
+    display: flex;
+    border: 3px solid rgb(28, 204, 166);
+    background-color: rgba(6, 189, 149, 0.616);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#cuerpo .contador p{
+    border: 2px solid red;
+    border-style: none;
+    background-color: #00000000;
 }
